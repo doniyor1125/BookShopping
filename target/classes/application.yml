@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: postgres
+    password: d1144421d
+    url: jdbc:postgresql://localhost:1125/db_test
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+      format_sql: true
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+
